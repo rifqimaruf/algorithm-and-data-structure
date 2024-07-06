@@ -11,9 +11,9 @@ Example 1:
 > -   Input: n = 4, time = 5
 > -   Output: 2
 > -   Penjelasan: Orang-orang melempar bantal sebagai berikut: 1 -> 2 -> 3 -> 4 -> 3 -> 2. Setelah lima detik, orang kedua yang memegang bantal.
->
-> Example 2:
->
+
+Example 2:
+
 > -   Input: n = 3, time = 2
 > -   Output: 3
 > -   Orang-orang melempar bantal sebagai berikut: 1 -> 2 -> 3. Setelah dua detik, orang ketiga yang memegang bantal.
