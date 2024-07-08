@@ -1,6 +1,6 @@
 # Find the winner of the cycle game
 
-[Sorce](https://leetcode.com/problems/find-the-winner-of-the-circular-game/description/?envType=daily-question&envId=2024-07-08)
+[Source](https://leetcode.com/problems/find-the-winner-of-the-circular-game/description/?envType=daily-question&envId=2024-07-08)
 
 ## Problem
 
