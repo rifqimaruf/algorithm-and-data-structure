@@ -1,10 +1,10 @@
 # Customer Who Never Order
 
 ## Problem Example
-Example 1:
+Example 1:  
 
-Input: 
-Customers table:
+Input:   
+Customers table:  
 +----+-------+   
 | id | name  |   
 +----+-------+   
