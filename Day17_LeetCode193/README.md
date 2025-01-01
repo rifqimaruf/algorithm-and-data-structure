@@ -31,7 +31,7 @@ The script uses `grep` with Perl-compatible regular expressions (`-P`) to match 
 ```bash
 #!/bin/bash
 echo "Searching for valid phone numbers..."
-grep -P '^(\d{3}-\d{3}-\d{4}|\(\d{3}\) \d{3}-\d{4}|\d{3} \d{3} \d{4})$' phoneNumber.txt
+grep -P '^(\d{3}-\d{3}-\d{4}|\(\d{3}\) \d{3}-\d{4})$' phoneNumber.txt
 ```
 
 ### **4. Test the Script**
@@ -49,7 +49,7 @@ grep -P '^(\d{3}-\d{3}-\d{4}|\(\d{3}\) \d{3}-\d{4}|\d{3} \d{3} \d{4})$' phoneNum
 #!/bin/bash
 # LeetCode Problem 193: Valid Phone Numbers
 echo "Searching for valid phone numbers..."
-grep -P '^(\d{3}-\d{3}-\d{4}|\(\d{3}\) \d{3}-\d{4}|\d{3} \d{3} \d{4})$' phoneNumber.txt
+grep -P '^(\d{3}-\d{3}-\d{4}|\(\d{3}\) \d{3}-\d{4})$' phoneNumber.txt
 ```
 
 ---
@@ -70,6 +70,13 @@ grep -P '^(\d{3}-\d{3}-\d{4}|\(\d{3}\) \d{3}-\d{4}|\d{3} \d{3} \d{4})$' phoneNum
 123 456 7890
 (123) 456-7890
 ```
+
+### Exlanation
+- `^`: Matches the beginning of a line.
+- `(\d{3}-\d{3}-\d{4})`: Matches the format `xxx-xxx-xxxx`.
+- `|\(\d{3}\) \d{3}-\d{4}`: Matches the format `(xxx) xxx-xxxx`.
+- `$`: Matches the end of a line.
+
 
 Note: `{123} 123-4567` is not valid according to the problem's constraints and is excluded from the output.
 
