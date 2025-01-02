@@ -65,3 +65,6 @@ If there is no common prefix, return an empty string `""`.
      ```bash
      ./longest_common_prefix
      ```
+
+## Accepted
+![image](./image.png)
