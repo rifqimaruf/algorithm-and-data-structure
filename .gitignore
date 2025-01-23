@@ -1,3 +1,6 @@
+Playground/
+Outliers/
+
 # Ignore object files and executables
 *.o
 *.out
@@ -36,3 +39,68 @@ cmake_install.cmake
 
 # Ignore build directory
 build/
+
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]istros/
+[Dd]ebug/.*.dll
+[Dd]ebug/.*.exe
+[Dd]ebug/.*.pdb
+[Dd]ebug/.*.cache
+[Dd]ebug/.*.so
+[Dd]ebug/.*.lib
+[Dd]ebug/.*.a
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer directories
+[Oo]bj/
+[Ll]og/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# VS Code directories
+.vscode/
+
+# Rider directories
+.idea/
+
+# DotCover
+.idea/.dotCover/
+
+# NPM packages
+node_modules/
+
+# User-specific files for JetBrains Rider
+.idea/
+.idea/*
+
+# Other files that should be ignored by git
+bin/
+obj/
+
+# OS-specific files
+.DS_Store
