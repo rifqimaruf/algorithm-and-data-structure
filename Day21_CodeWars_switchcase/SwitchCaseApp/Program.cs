@@ -7,7 +7,9 @@ public class Kata
     double result = 0;
     switch(operation)
     {
-      case '+': result = value1 + value2; break;
+      case '+': 
+          result = value1 + value2; 
+          break;
       case '-': result = value1 - value2; break;
       case '/': result = value1 / value2; break;
       case '*': result = value1 * value2; break;
