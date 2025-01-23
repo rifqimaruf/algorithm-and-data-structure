@@ -30,4 +30,4 @@ Agar perbandingan tidak terpengaruh oleh huruf kapital, kita mengubah seluruh ka
 | **Kompleksitas Kode**               | Lebih kompleks dengan regex dan pemisahan kata                   | Lebih sederhana dan efisien dengan `Contains()`                  |
 
 ## Note
-Solusi yang sebelumnya gagal karena memeriksa kecocokan yang sangat ketat dan tidak menangani variasi tanda baca atau kata tambahan. Dengan menggunakan Contains(), solusi terbaru lebih fleksibel dan dapat menangani kasus di mana kata "hello" berada di dalam kalimat yang lebih panjang atau mengandung tanda baca, sehingga dapat lolos pada semua test case.
+Solusi yang sebelumnya gagal karena memeriksa kecocokan yang sangat ketat, meski menangani tanda baca tapi tidak menangani *kata tambahan*. Dengan menggunakan Contains(), solusi terbaru lebih fleksibel dan dapat menangani kasus di mana kata "hello" berada di dalam kalimat yang lebih panjang atau mengandung tanda baca, sehingga dapat lolos pada semua test case.
