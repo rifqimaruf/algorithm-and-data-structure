@@ -1,22 +1,26 @@
 ﻿using System;
 
-    public class Kata
+public class Kata
+{
+    public static bool Validate_hello(string greetings)
     {
-        public static bool Validate_hello(string greetings)
+        if (greetings == null) return false;
+        string[] greet = { "hello", "ciao", "salut", "hallo", "hola", "ahoj", "czesc" };
+
+        greetings = greetings.ToLower();
+
+        foreach (string word in greet)
         {
-            if (greetings == null) return false;
-            greetings = greetings.ToLower();
-            string[] hello = {"hello", "ciao", "salut", "hallo", "hola", "ahoj", "czesc", "ahoj!", "hallo, wie geht's dir?", "hombre! hola!", "hallo, salut", "salut", "ciao bella!"};  
-            foreach (string word in hello)
+            if (greetings.Contains(word))
             {
-                if (greetings == word)
-                {
-                    return true;
-                }
+                return true;
             }
-            return false;
         }
+
+        return false;
     }
+}
+
 
 public class Program
 {
