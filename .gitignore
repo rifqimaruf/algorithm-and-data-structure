@@ -104,3 +104,6 @@ obj/
 
 # OS-specific files
 .DS_Store
+
+# Ignore test platform DLLs
+Microsoft.TestPlatform.*
