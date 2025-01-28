@@ -3,7 +3,7 @@
 # Menentukan Abad dari Tahun Tertentu
 
 ## Masalah
-Abad pertama dimulai dari tahun 1 hingga 100, abad kedua dari tahun 101 hingga 200, dan seterusnya. Tugas Anda adalah menentukan abad untuk suatu tahun tertentu berdasarkan aturan ini.
+Abad pertama dimulai dari tahun 1 hingga 100, abad kedua dari tahun 101 hingga 200, dan seterusnya. Tugasnya adalah menentukan abad untuk suatu tahun tertentu berdasarkan aturan ini.
 
 ### Contoh:
 - Tahun 1705 → Abad 18
