@@ -23,3 +23,18 @@ Apa itu "Generik" dalam Pemrograman?
 Dalam pemrograman, "generik" berarti sesuatu yang dapat digunakan secara umum untuk berbagai situasi atau tipe data yang bebereda tanpa harus menulis ulang kode khusus untuk setiap kasus. 
 
 Dalam konteks iterator dan kode ini, "generik" merujuk pada kemampuan iterator untuk bekerja dengan berbagai jenis kontainer (vector, list, list dsb) tanpa harus mengubah logika utama kode
+
+# Tentang Sieve of Eratosthenes
+Sieve of Eratosthenes adalah algoritma klasik untuk menemukan bilangan prima. Cara kerjanya adalah dengan "menyaring" bilangan yang bukan prima (komposit) dari daftar angka, sehingga yang tersisa adalah bilangan prima. Dalam program ini, algoritma dimodifikasi untuk dua tahap:
+
+Tahap Pertama:
+- Membuat daftar bilangan prima awal hingga 32,000.
+- Mulai dengan 2 sebagai prima pertama, lalu periksa bilangan ganjil (3, 5, 7, dst.) hingga akar kuadrat dari batas atas (√i).
+- Jika suatu bilangan tidak habis dibagi prima sebelumnya, maka itu prima dan ditambahkan ke daftar.
+
+Tahap Kedua:
+- Menggunakan daftar prima awal untuk menyaring bilangan komposit dalam rentang M hingga N (input pengguna).
+- Menandai kelipatan dari setiap bilangan prima yang lebih kecil dari √N sebagai bukan prima.
+- Bilangan yang tidak ditandai dalam rentang tersebut adalah bilangan prima dan dicetak.
+
+Algoritma ini efisien karena hanya memeriksa bilangan prima yang diperlukan dan mengurangi jumlah operasi pembagian.
