@@ -37,4 +37,4 @@ Tahap Kedua:
 - Menandai kelipatan dari setiap bilangan prima yang lebih kecil dari √N sebagai bukan prima.
 - Bilangan yang tidak ditandai dalam rentang tersebut adalah bilangan prima dan dicetak.
 
-Algoritma ini efisien karena hanya memeriksa bilangan prima yang diperlukan dan mengurangi jumlah operasi pembagian.
+Algoritma ini efisien karena hanya memeriksa bislangan prima yang diperlukan dan mengurangi jumlah operasi pembagian.
