@@ -44,6 +44,7 @@ char peek(Stack *s) {
     return s->data[s->top];
 }
 
+
 // Fungsi untuk menghitung panjang string
 int stringLength(char *str) {
     int length = 0;
