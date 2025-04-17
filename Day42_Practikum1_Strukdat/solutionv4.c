@@ -125,7 +125,7 @@ void solveCursedMan(int n, int maxWeight, char** encryptedWeights)
     for (int i = 0; i < n; i++)
     {
         weights[i] = symbolStringToNum(encryptedWeights[i]);
-    }
+    }   
 
     Stack* unsoldFish = createStack(n);
 
