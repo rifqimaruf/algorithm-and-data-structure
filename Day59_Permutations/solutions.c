@@ -1,13 +1,17 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <stdlib.h>
 
 #define ll long long
 int main()
 {
     ll n, total_placement = 0;
-    ll array[9999999];
+    
     scanf("%lld", &n);
     bool check = true;
+
+    ll* array = (ll*) malloc(n * sizeof(ll));
+
     int j=2;
     if(n==1)
         printf("1");
@@ -54,6 +58,7 @@ int main()
             printf("NO SOLUTION");
         }
     }
+    free(array);
 
     return 0;
 }
