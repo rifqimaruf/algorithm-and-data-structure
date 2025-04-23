@@ -1,0 +1,4 @@
+tips: perhatikan nama file "-" sering dianggap sebagai symbol opsi untuk Linux
+sehingga pastikan memberikan argument yang lengkap seperti ./-
+
+password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx

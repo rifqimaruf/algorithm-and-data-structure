@@ -1,0 +1,4 @@
+tips: find ./ -user bandit7 -size 33c -group bandit6
+*menggunakan predicate group
+
+password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj

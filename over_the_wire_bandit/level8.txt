@@ -1,0 +1,8 @@
+tips: pakai command [sort dan uniq], pro tips pakai pipe
+sort <nama file> | uniq -c 
+
+c untuk count
+d untuk duplicate
+u untuk unique
+
+password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM

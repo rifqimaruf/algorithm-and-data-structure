@@ -1,0 +1,9 @@
+tips: gunakan command base64 untuk code ke base64 string
+sehingga untuk decode kembali cuman perlu menambahkan predicate -d <nama file>
+
+password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+strings untuk menemukan password dalam file biner.
+base64 -d untuk mendekodekan teks Base64.
+tar, gzip, atau bzip2 untuk mengekstrak arsip terkompresi.
+grep untuk mencari string spesifik di banyak file.

@@ -1,0 +1,3 @@
+tips: ... dalam Linux dianggap seperti current dir, solusi mirip level1
+
+password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ

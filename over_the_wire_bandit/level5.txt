@@ -1,0 +1,8 @@
+tips: find . -type f -size 1033c
+c sekara eksplisit berarti bytes
+c: Bytes.
+b: 512-byte blocks.
+
+"man" find
+*menggunakan predicate type dan size
+password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG

@@ -1,0 +1,4 @@
+tips: gunakan command strings untuk buat file binary ke string
+string <nama file>
+
+password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
