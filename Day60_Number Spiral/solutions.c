@@ -1,15 +1,16 @@
 #include <stdio.h>
+
 #define ll long long
 
 int main()
 {
     ll n;
-    scanf("%d", &n);
+    scanf("%lld", &n);
     while(n--)
     {
         ll y, x;
-        scanf("%d %d", &y, &x);
-        ll z = max(y, x);
+        scanf("%lld %lld", &y, &x);
+        ll z = (y > x ? y : x);
         ll z2 = (z-1) * (z-1), ans;
         if(z%2)
         {
@@ -26,14 +27,14 @@ int main()
         {
             if(x==z)
             {
-                ans = z2*y;
+                ans = z2 + y;
             }
             else
             {
                 ans=z2+2*z-x;
             }
         }
-        printf("%d \n", ans);
+        printf("%lld \n", ans);
     }
     return 0;
 }
