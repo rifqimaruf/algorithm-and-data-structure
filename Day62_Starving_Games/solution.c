@@ -31,7 +31,7 @@ int main()
     }
 
     int max_reps = 0, winning_district = 0;
-    for(int i = 1; i < n; i++)
+    for(int i = 1; i <= n; i++)
     {
         if(disctrict_count[i] > max_reps)
         {
@@ -45,8 +45,10 @@ int main()
 
     int middle_idx = (X- 1) / 2;
     int median = representatives[middle_idx];
+    printf("%d %d\n", winning_district, median);
     if(winning_district == median)
     {
+
         printf("Tidak ada yang menang\n");
     }
     else
