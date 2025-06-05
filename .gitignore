@@ -114,3 +114,8 @@ obj/
 
 # Ignore test platform DLLs
 Microsoft.TestPlatform.*
+
+# Ignore .cph
+*.cph
+**/.cph/
+
